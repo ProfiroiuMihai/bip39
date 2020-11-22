@@ -9,3 +9,8 @@
 ## 1.0.3
 
 - Remove async function
+
+## 1.0.4
+
+- Update libraries to current PointCastle
+

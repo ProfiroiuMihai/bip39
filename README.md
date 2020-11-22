@@ -4,6 +4,9 @@ Dart implementation of [Bitcoin BIP39](https://github.com/bitcoin/bips/blob/mast
 
 Convert from [bitcoinjs/bip39](https://github.com/bitcoinjs/bip39)
 
+Forked because original was abandoned - updated to latest PointyCastle so peeps can use.
+
+
 ## Reminder for developers
 
 ***Please remember to allow recovery from mnemonic phrases that have invalid checksums (or that you don't have the wordlist)***
@@ -34,7 +37,7 @@ bip39.validateMnemonic('basket actual')
 
 
 ``` dart
-import 'package:bip39/bip39.dart' as bip39;
+import 'package:babybip39/bip39.dart' as bip39;
 
 main() {
     // Only support BIP39 English word list
